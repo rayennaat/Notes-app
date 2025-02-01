@@ -1,5 +1,5 @@
 import React from 'react'
-import { getInitials } from '../../utils/Helper'
+import { getInitials } from '../../utils/helper'
 
 const ProfileInfo = ({ userInfo, onLogout }) => {
   return (
