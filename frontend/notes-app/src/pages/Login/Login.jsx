@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import Passwordinput from '../../components/Input/Passwordinput'
 import { validateEmail } from '../../utils/helper';
 import axiosInstance from '../../utils/axiosInstance';
-import Navbar from '../../components/Navbar/Navbar';
+import Bar from '../../components/Navbar/Bar';
 
 const Login = () => {
   
@@ -51,7 +51,7 @@ const Login = () => {
 
   return (
   <>
-    <Navbar/>
+    <Bar/>
   
 
     <div className="flex items-center justify-center mt-28">
