@@ -3,7 +3,7 @@ import Passwordinput from '../../components/Input/Passwordinput';
 import { Link, useNavigate } from 'react-router-dom';
 import { validateEmail } from '../../utils/helper';
 import axiosInstance from '../../utils/axiosInstance';
-import Navbar from '../../components/Navbar/Navbar';
+import Bar from '../../components/Navbar/Bar';
 
 const SignUp = () => {  
 
@@ -58,7 +58,7 @@ const SignUp = () => {
   };
   return (
     <>
-    <Navbar />
+    <Bar />
 
     <div className="flex items-center justify-center mt-28">
       <div className="w-96 border rounded bg-white px-7 py-10">
